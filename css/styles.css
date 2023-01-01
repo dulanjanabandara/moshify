@@ -91,10 +91,6 @@ a {
   content: "-->";
   margin-left: 5px;
   transition: margin 0.15s;
-  -webkit-transition: margin 0.15s;
-  -moz-transition: margin 0.15s;
-  -ms-transition: margin 0.15s;
-  -o-transition: margin 0.15s;
 }
 
 .link-arrow:hover::after {
@@ -349,10 +345,6 @@ a {
 /* Plans */
 .plan {
   transition: transform 0.2s ease-out;
-  -webkit-transition: transform 0.2s ease-out;
-  -moz-transition: transform 0.2s ease-out;
-  -ms-transition: transform 0.2s ease-out;
-  -o-transition: transform 0.2s ease-out;
 }
 
 .plan__name {
@@ -386,10 +378,6 @@ a {
 
 .plan--popular {
   transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
 }
 
 .plan--popular .card__header {
@@ -407,18 +395,10 @@ a {
 
 .plan:hover {
   transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
 }
 
 .plan--popular:hover {
   transform: scale(1.15);
-  -webkit-transform: scale(1.15);
-  -moz-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  -o-transform: scale(1.15);
 }
 
 @media screen and (min-width: 1024px) {
@@ -608,10 +588,6 @@ a {
 .collapsible__chevron {
   transform: rotate(-90deg);
   transition: transform 0.3s;
-  -webkit-transition: transform 0.3s;
-  -moz-transition: transform 0.3s;
-  -ms-transition: transform 0.3s;
-  -o-transition: transform 0.3s;
 }
 
 .collapsible__content {
@@ -621,10 +597,6 @@ a {
   overflow: hidden;
   opacity: 0;
   transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
 }
 
 .collapsible--expanded .collapsible__chevron {
@@ -701,10 +673,6 @@ a {
 .nav__item > a {
   color: #d2d0db;
   transition: color 0.3s;
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
-  -o-transition: color 0.3s;
 }
 
 .nav__item > a:hover {
@@ -715,28 +683,16 @@ a {
   cursor: pointer;
   opacity: 0.5;
   transition: 0.15s;
-  -webkit-transition: 0.15s;
-  -moz-transition: 0.15s;
-  -ms-transition: 0.15s;
-  -o-transition: 0.15s;
 }
 
 .nav.collapsible--expanded .nav__toggler {
   opacity: 1;
   box-shadow: 0 0 0 3px #666;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 .nav__brand {
   transform: translateY(5px);
-  -webkit-transform: translateY(5px);
-  -moz-transform: translateY(5px);
-  -ms-transform: translateY(5px);
-  -o-transform: translateY(5px);
 }
 
 @media screen and (min-width: 768px) {
@@ -872,10 +828,6 @@ a {
 .footer a {
   color: #777;
   transition: color 0.3s;
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
-  -o-transition: color 0.3s;
 }
 
 .footer a:hover {
